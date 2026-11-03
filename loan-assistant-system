@@ -1,0 +1,23 @@
+ 
+└── loan-assistant-system/
+    ├── requirements.txt
+    ├── main.py
+    ├── models/
+    │   ├── __init__.py
+    │   └── state.py
+    ├── protocols/
+    │   ├── __init__.py
+    │   └── a2a.py
+    ├── agents/
+    │   ├── __init__.py
+    │   ├── intake_agent.py
+    │   ├── underwriting_agent.py
+    │   └── risk_agent.py
+    ├── workflows/
+    │   ├── __init__.py
+    │   └── graph.py
+    ├── azure_functions/
+    │   └── ocr_processor.py
+    └── k8s/
+        ├── deployment.yaml
+        └── service.yaml
